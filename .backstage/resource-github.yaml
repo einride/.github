@@ -2,12 +2,9 @@ apiVersion: backstage.io/v1alpha1
 kind: Resource
 metadata:
   name: github-organization-profile
-  annotations:
-    github.com/project-slug: einride/.github
-    github.com/team-slug: einride/team-cloud-control
 spec:
   type: saas
   lifecycle: production
-  owner: team-cloud-control
+  owner: platform-engineering
   dependencyOf:
-    - component:default/github
+    - component:github
