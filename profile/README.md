@@ -1,4 +1,4 @@
-<img src="/profile/hero.png" />
+<img src="/profile/hero.jpg" />
 
 This is Einride
 ===============
